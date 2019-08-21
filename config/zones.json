@@ -96,7 +96,7 @@
     ],
     "capacity": {
       "biomass": 474,
-      "coal": 598,
+      "coal": 0,
       "gas": 4466,
       "hydro": 8590,
       "hydro storage": 3401,
@@ -2774,14 +2774,14 @@
       ]
     ],
     "capacity": {
-      "biomass": 1164,
-      "coal": 4608,
-      "gas": 19297,
+      "biomass": 1243,
+      "coal": 4631,
+      "gas": 15570,
       "hydro": 38,
       "hydro storage": 0,
       "nuclear": 486,
-      "solar": 2039,
-      "wind": 4117
+      "solar": 3937,
+      "wind": 4626
     },
     "contributors": [
       "https://github.com/corradio"
@@ -3074,7 +3074,7 @@
       "hydro storage": 1780,
       "nuclear": 0,
       "oil": 415,
-      "solar": 424,
+      "solar": 882,
       "wind": 5825
     },
     "contributors": [
@@ -3734,6 +3734,30 @@
       "production": "US_CA.fetch_production"
     },
     "timezone": null
+  },
+  "US-SEC": {
+    "bounding_box": [
+      [
+        -87.63333333,
+        24.45
+      ],
+      [
+        -80.03333333,
+        31.0
+      ]
+    ],
+    "capacity": {
+      "unknown": 2110,
+      "solar": 2
+    },
+    "contributors": [
+      "https://github.com/snarfed"
+    ],
+    "flag_file_name": "us.png",
+    "parsers": {
+      "production": "US_SEC.fetch_production"
+    },
+    "timezone": "US/Eastern"
   },
   "US-TX": {
     "_comment": "http://www.ercot.com/content/wcm/lists/172484/ERCOT_Quick_Facts_01.17.19.pdf lists wind capacity and utility scale solar and percentages, unknown capacity calculated from those figures",
